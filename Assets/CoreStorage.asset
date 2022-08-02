@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fad795213193412c9ef38b11ed0f997e, type: 3}
+  m_Name: CoreStorage
+  m_EditorClassIdentifier: 
+  integrationStorage: {fileID: 11400000, guid: b8e7e2d59cc04984e9739239b00e1d59, type: 2}
+  tileMapStorage: {fileID: 11400000, guid: 052693ff00ba7fd45b649fde95cc3780, type: 2}
+  tileMapConfiguration: {fileID: 11400000, guid: b0ac4ed38faad7140bcce299f32fbea5, type: 2}
