@@ -1,4 +1,6 @@
-﻿namespace TileMap
+﻿using UnityEngine;
+
+namespace TileMap
 {
     public struct TileComponent
     {

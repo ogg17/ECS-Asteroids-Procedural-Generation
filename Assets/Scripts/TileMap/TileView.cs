@@ -5,12 +5,13 @@ using UnityEngine;
 namespace TileMap
 {
     public class TileView: MonoBehaviour
-    { 
-        public int Entity { get; set; }
+    {
+        public bool isClick;
 
         private void OnMouseDown()
         {
-            
+            print("Clicked");
+            isClick = true;
         }
     }
 }

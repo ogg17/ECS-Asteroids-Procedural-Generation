@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d06f966f0838cad49a855f56be9296b9, type: 3}
   m_Name: TileMapConfiguration
   m_EditorClassIdentifier: 
-  mapSize: 100
   tileScale: 7
+  radius: 50
+  noiseScale: 3

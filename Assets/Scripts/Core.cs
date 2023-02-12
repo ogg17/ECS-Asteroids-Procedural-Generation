@@ -19,14 +19,16 @@ public class Core : MonoBehaviour
         _world = new();
         _systems = new(_world, _storages);
         _systems
-            .Add(new TileMapSystem())
+            .Add(new TileMapInitSystem())
+            .Add(new TileClickSystem())
+            .Add(new TileClickedSystem())
             .Init();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //_systems?.Run();
+        _systems?.Run();
     }
     
     // OnDestroy is called before the GameObject is destroyed
